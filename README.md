@@ -2,6 +2,33 @@
 
 *Configuration for ESLint*
 
+## Usage
+
+Export two ESLint configurations for your usage.
+
+### eslint-config-alexgred
+
+Default export contains ESLint rules, including ECMAScript 6+. It requires `eslint` and `eslint-plugin-import`.
+
+1. Install by the command:
+
+  ```sh
+    npm install --save-dev eslint-config-alexgred eslint@^#.#.# eslint-plugin-import@^#.#.#
+  ```
+
+2. Add `"extends": "alexgred"` to your .eslintrc.* (.js, .cjs, .yaml, .yml, .json).
+
+### eslint-config-alexgred/legacy
+
+Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
+
+1. Install by the command:
+
+  ```sh
+  npm install --save-dev eslint-config-alexgred eslint@^#.#.# eslint-plugin-import@^#.#.#
+  ```
+
+2. Add `"extends": "alexgred/legacy"` to your .eslintrc.* (.js, .cjs, .yaml, .yml, .json).
 
 ## Contributors
 
@@ -9,32 +36,8 @@
 
 ## License
 
-(The MIT License)
-
-Copyright (c) 2023 Alex Dolzhenkov
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-**[⬆ back to top](#table-of-contents)**
-
+  - [The MIT License](https://github.com/alexgred/eslint-config-alexgred/blob/main/LICENSE.md)
 
 ## Author
 
-eslint-config-alexgred is developed by [@alexgred](https://github.com/alexgred).
+ESLint config is developed by [@alexgred](https://github.com/alexgred).
