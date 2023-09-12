@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-alexgred",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Alex Dolzhenkov ESLint config.",
   "main": "index.js",
   "exports": {
