@@ -24,10 +24,7 @@
     "prepublishOnly": "eslint-find-rules --unused && npm test && safe-publish-latest",
     "prepublish": "not-in-publish || npm run prepublishOnly",
     "pretest": "npm run --silent lint",
-    "test": "npm run --silent tests-only",
-    "pretravis": ":",
-    "travis": "npm run --silent tests-only",
-    "posttravis": ":"
+    "test": "npm run --silent tests-only"
   },
   "repository": {
     "type": "git",
@@ -50,12 +47,11 @@
   },
   "homepage": "https://github.com/alexgred/eslint-config-alexgred",
   "dependencies": {
-    "confusing-browser-globals": "^1.0.11",
-    "object.entries": "^1.1.6"
+    "confusing-browser-globals": "^1.0.11"
   },
   "devDependencies": {
     "@babel/runtime": "^7.22.6",
-    "babel-preset-airbnb": "^4.5.0",
+    "@babel/preset-env": "^7.22.15",
     "babel-tape-runner": "^3.0.0",
     "eclint": "^2.8.1",
     "eslint": "^7.32.0 || ^8.2.0",
