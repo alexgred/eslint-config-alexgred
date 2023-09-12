@@ -6,7 +6,6 @@
   "exports": {
     ".": "./index.js",
     "./legacy": "./legacy.js",
-    "./whitespace": "./whitespace.js",
     "./rules/best-practices": "./rules/best-practices.js",
     "./rules/es6": "./rules/es6.js",
     "./rules/node": "./rules/node.js",
@@ -38,9 +37,7 @@
     "eslint",
     "eslintconfig",
     "config",
-    "airbnb",
     "javascript",
-    "styleguide",
     "es2015",
     "es2016",
     "es2017",
