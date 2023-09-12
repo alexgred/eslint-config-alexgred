@@ -1,4 +1,4 @@
-# Alex Dolzhenkov ESLint configuration {
+# Alex Dolzhenkov ESLint configuration
 
 *Configuration for ESLint*
 
