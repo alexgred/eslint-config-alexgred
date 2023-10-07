@@ -1,11 +1,17 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    './rules/errors',
+    'plugin:import/recommended',
+    'prettier',
+    './ rules / errors',
   ].map(require.resolve),
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2021,
     sourceType: 'module',
+  },
+  env: {
+    'browser': true,
+    'node': true,
   },
   rules: {},
 };
